@@ -2,6 +2,8 @@
 
 App of type dex for Temtem
 (Game by CremaGames)
+### Currently published on  
+* [GooglePlay](http://www.https://play.google.com/store/apps/details?id=com.WagenerGames.TemTemDex.io/1.0.2/docs/)
 
 
 ## Features:
