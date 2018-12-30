@@ -1,0 +1,578 @@
+fileFormatVersion: 2
+guid: fddf68d7aec0d4242be6ab12982269f8
+timeCreated: 1470986713
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_base_circle_blue_16
+    21300002: UI_base_circle_blue_32
+    21300004: UI_base_panel_smooth
+    21300006: UI_base_close_button
+    21300008: UI_base_next_button
+    21300010: UI_base_prev_button
+    21300012: UI_base_poke_stats
+    21300014: UI_base_dots
+    21300016: UI_base_panel_smooth_small
+    21300018: UI_base_candy
+    21300020: UI_base_evo_arrow_next
+    21300022: UI_base_evo_arrow_prev
+    21300024: UI_base_circle_evo
+    21300026: UI_base_attack_icon
+    21300028: UI_base_defense_icon
+    21300030: UI_base_hp_icon
+    21300032: UI_base_poke_stats_2
+    21300034: UI_base_dps_icon
+    21300036: UI_base_charge_1
+    21300038: UI_base_charge_2
+    21300040: UI_base_charge_3
+    21300042: UI_base_charge_4
+    21300044: UI_base_charge_5
+    21300046: UI_base_egg
+    21300048: UI_base_menu_button
+    21300050: UI_base_sort_button
+    21300052: UI_base_search_button
+    21300054: UI_base_stats_bg
+    21300056: UI_base_checkbox_1
+    21300058: UI_base_checkbox_0
+    21300060: UI_base_arrow
+    21300062: UI_base_panel_smooth_small_outline
+    21300064: UI_base_cleartxt_button
+    21300066: UI_base_selbox_button_0
+    21300068: UI_base_selbox_button_1
+    21300070: UI_base_panel_hightlight_1
+    21300072: UI_base_egg_empty
+    21300074: UI_base_panel_hightlight_0
+    21300076: UI_base_allPokes_button
+    21300078: UI_base_panel_fade
+    21300080: UI_base_favorite_1
+    21300082: UI_base_favorite_0
+    21300084: UI_base_favorites_button
+    21300086: UI_base_settings_button
+    21300088: UI_base_icon
+    21300090: UI_base_go_button
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_base_circle_blue_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1524
+        width: 516
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_circle_blue_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1002
+        width: 516
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_close_button
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 8
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_next_button
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 332
+        width: 322
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_prev_button
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 654
+        width: 320
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_poke_stats
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 358
+        width: 180
+        height: 628
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_dots
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1959
+        width: 288
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_panel_smooth_small
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2006
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_circle_evo
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1680
+        width: 320
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_poke_stats_2
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 359
+        width: 193
+        height: 621
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_charge_1
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2006
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_charge_2
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1942
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_charge_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1878
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_charge_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1814
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_charge_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1750
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_egg
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1776
+        width: 206
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_menu_button
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 8
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_sort_button
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 335
+        width: 321
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_search_button
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 984
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_stats_bg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 640
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_checkbox_1
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1313
+        width: 321
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_checkbox_0
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1639
+        width: 321
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_arrow
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1440
+        width: 192
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_panel_smooth_small_outline
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_cleartxt_button
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 664
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_panel_hightlight_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1344
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_egg_empty
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1769
+        width: 206
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_panel_hightlight_0
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1274
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_allPokes_button
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 993
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_panel_fade
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 21, z: 2, w: 2}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_favorite_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_favorite_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_favorites_button
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1319
+        width: 322
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_settings_button
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1319
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_icon
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1416
+        width: 251
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_base_go_button
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 993
+        width: 320
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad32b7dc7675d74bba1566cdaf9143b, type: 3}
+  m_Name: TextSet ES
+  m_EditorClassIdentifier: 
+  Lang: 4
+  Elements:
+  - Stamina Max
+  - Tipo
+  - Peso
+  - Altura
+  - Ataque base
+  - Defensa base
+  - Stamina base
+  - Movimientos
+  - MovimientosEspeciales
+  - Clase
+  - ORDENAR
+  - BUSCAR
+  - FAVORITOS
+  - ORDENAR POR
+  - ID
+  - Nombre
+  - sec.
+  - kg
+  - m
+  - BUSCAR POR NOMBRE
+  - 'ej. '
+  - SIN COINCIDENCIAS
+  - FILTRAR POR HUEVO
+  - km
+  - SinHuevo
+  - FILTRAR POR TIPO
+  - TODO
+  - NINGUNO
+  - TODO
+  - "Energ\xEDa ganada por hit"
+  - "Cr\xEDticos"
+  - Esquivas
+  - "Coste de energ\xEDa"
+  - Vida base
+  - Multiplicador de Stamina / EVO
+  - Ratio de captura
+  - Ratio de huida
+  - Rareza
+  - "P\xE1gina"
+  - total
+  - "Resultado de b\xFAsqueda"
+  - TODO
+  - Resistencias
+  - Debilidades
+  - Fuerte contra.
+  - "D\xE9bil contra."
+  - FAVORITOS
+  - Favoritos
+  - "Lista vac\xEDa"
+  - OPCIONES
+  - NOTA
+  - Isla de Origen
+  - "Da\xF1a el doble"
+  - Recibe la mitad
+  - "Da\xF1a la mitad"
+  - Recibe el doble
+  - Vida
+  - Ataque
+  - Ataque Esp.
+  - Defensa
+  - Def. Esp.
+  - Velocidad
+  - Stamina
+  - Promedio de stats
+  - 'Holds:'
+  - 'Sinergia:'
+  Descriptions:
+  - "Descripci\xF3n desconocida"
+  Messages:
+  - SELECCIONA AL MENOS UN TIPO
+  - SELECCIONA AL MENOS UN HUEVO
+  - Bienvenido, Tamer!
+  - 
+  - "Explora la lista de los temtems. Sin conexi\xF3n a internet"
+  - "Explora las character\xEDsticas de los temtems y otro tipo de informaci\xF3n
+    \xFAtil"
+  - "Usa la b\xFAsqueda, los filtros, u ordena la lista de favoritos para una navegaci\xF3n
+    r\xE1pida por el dex"
+  - Aprende las fortalezas y debilidades de cada temtem
+  - Descubre todos los posibles movimientos para elegir el mejor kit de movimientos
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

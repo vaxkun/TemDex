@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad32b7dc7675d74bba1566cdaf9143b, type: 3}
+  m_Name: TextSet EN
+  m_EditorClassIdentifier: 
+  Lang: 0
+  Elements:
+  - Max Stamina
+  - Type
+  - Weight
+  - Height
+  - Base Attack
+  - Base Defense
+  - Base Stamina
+  - Attack Moves
+  - Special Moves
+  - Class
+  - SORT
+  - SEARCH
+  - FAVORITES
+  - SORT BY
+  - ID
+  - Name
+  - sec.
+  - kg
+  - m
+  - SEARCH BY NAME
+  - 'e. g. '
+  - NO MATCHES
+  - FILTER BY EGG HATCHING
+  - km
+  - no egg
+  - FILTER BY TYPE
+  - ALL
+  - NONE
+  - ALL
+  - Energy gain per hit
+  - Critical chance
+  - Dodge window
+  - Energy cost
+  - Base HP
+  - Stamina multiplier / EVO
+  - Capture rate
+  - Flee rate
+  - Rarity
+  - Page
+  - total
+  - Search result
+  - All
+  - Resistances
+  - Weaknesses
+  - Strong vs.
+  - Weak vs.
+  - FAVORITES
+  - Favorites
+  - List is empty
+  - SETTINGS
+  - NOTE
+  - Origin Island
+  - Deals Double
+  - Recieves Half
+  - Deals Half
+  - Recieve Double
+  - Health
+  - Attack
+  - Sp. Attack
+  - Defense
+  - Sp. Def
+  - Speed
+  - Stamina
+  - Average of stats
+  - 'Holds:'
+  - 'Synergy:'
+  Descriptions:
+  - Unknown Description
+  - Some Temtem are naturally introverted and keep to themselves. DEF +1.
+  - Really? Are you going to attack something *this* cute? You deserver that ATK -1.
+  - 'The substance known as Urushiol is a virulent toxic agent. Synergy: +4 turn poison.'
+  - Lashing gales, like the frozen tramontane howling over Loch.
+  - Almost any claw or nail can scratch the surface. Sometimes that's enough.
+  - Many Temtem have this habit of gently chewing plants or furniture. This is a little
+    less gentle.
+  - Effective and unsubtle, like a Tucmani mine drill.
+  - A fistful of humble sand becomes a faceful of dirty fighting
+  - The red mist makes a Temtem brutal (ATK +2) but also careless (DEF -2)
+  - Raw as untamed Temtem and unstopabble as a Kisiwan stampede
+  - All beaked Temtems like to playfully peck their tamers. This is the less friendly
+    version.
+  - This Temtem's intimidating stare makes rivals feel more vulnerable (DEF -1).
+  - A mind hack developed by Arubian Mind specialists, makes the target asleep for
+    2 turns.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  Messages:
+  - SELECT AT LEAST ONE TYPE FILTER
+  - SELECT AT LEAST ONE EGG FILTER
+  - Welcome, Tamer!
+  - 
+  - Browse the list of all available temtems. No internet connection requried
+  - Explore relevant temtem characteristics and other useful information
+  - Use search, filter, sort and favorites list features for quick navigation
+  - Learn strength and weaknesses of each temtem
+  - Discover all possible moves to choose the best moveset
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

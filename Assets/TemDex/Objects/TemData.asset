@@ -1,0 +1,3324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c47307fbb414d4291be9f9f5ae58d9, type: 3}
+  m_Name: TemData
+  m_EditorClassIdentifier: 
+  maxStats: 00000000000000000000000000000000000000000000000000000000
+  PokeInfos:
+  - temName: Oree
+    Id: 2
+    Type: 01000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 2
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 33ef972aa8d3c044dac8dafbb2b54d17, type: 3}
+  - temName: Swali
+    Id: 10
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 11
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: b2ba3f91bf6b4f648a63d001a6ce52c2, type: 3}
+  - temName: Loali
+    Id: 11
+    Type: 070000000b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 10
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 2c98e0bdcb86d1a409418cc208d3793c, type: 3}
+  - temName: Tateru
+    Id: 12
+    Type: 08000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 7e3e22a026f32ee46a4385a96d46439f, type: 3}
+  - temName: Paharo
+    Id: 16
+    Type: 0b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 17
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: b02df7a169a14af4bb4afa95a9df372d, type: 3}
+  - temName: Pharac
+    Id: 17
+    Type: 0b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 16
+    EvoToId: 18
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 5c5936032481b234d983384ea3a6abbe, type: 3}
+  - temName: Unknown
+    Id: 18
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 17
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: f60691803f870524eaabf98aef082791, type: 3}
+  - temName: Ampling
+    Id: 19
+    Type: 03000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 4
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 20
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: e304db21d8ac0bf43a2e911ed998fd44, type: 3}
+  - temName: Amphatyr
+    Id: 20
+    Type: 0300000007000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 4
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 19
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 941d2bf0bfa48404cbfd44d0f8aa9d21, type: 3}
+  - temName: Hidody
+    Id: 23
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 46cf9ece085b8ee4ab58f212b075b9d2, type: 3}
+  - temName: Fomu
+    Id: 25
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 26
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: fc0cd5f8717a40c4086324646c36f787, type: 3}
+  - temName: Wiplump
+    Id: 26
+    Type: 0a0000000b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 25
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 078f4fc6186315842bc0ea023e75ba16, type: 3}
+  - temName: Skail
+    Id: 27
+    Type: 08000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 28
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 102c77bc78635624192eea3e91597bf5, type: 3}
+  - temName: Skunch
+    Id: 28
+    Type: 0800000005000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 5
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 27
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: f4a65ed062adce84cbc0393aeb2bf4b6, type: 3}
+  - temName: Houchic
+    Id: 32
+    Type: 06000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 8784627ae43b4e84ba798317e06d1e2b, type: 3}
+  - temName: Kaku
+    Id: 48
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 49
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 3a94f8dfd4661f547a81d85ba69c06ff, type: 3}
+  - temName: Saku
+    Id: 49
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 48
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 27827029e7818b543ad7c372c69d571f, type: 3}
+  - temName: Barnshe
+    Id: 53
+    Type: 060000000b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 7ca94eb46d3ed3d4a9f33fdb41b47081, type: 3}
+  - temName: Unknown
+    Id: 54
+    Type: 00000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: ad22d80d64296a54da95ab18125cbf5d, type: 3}
+  - temName: Raiber
+    Id: 57
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 58
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 253e4ce02e34c2042bf1dc6376400398, type: 3}
+  - temName: Raize
+    Id: 58
+    Type: 04000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 57
+    EvoToId: 59
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 9db07bbcf279660459a91720b67535b7, type: 3}
+  - temName: Raican
+    Id: 59
+    Type: 04000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 58
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 8176e6dc67c59a149a118e1d3b0890ad, type: 3}
+  - temName: Pewki
+    Id: 60
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 61
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 96b08f87de9fb5b47adb0ffedba09971, type: 3}
+  - temName: Piraniant
+    Id: 61
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 60
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: a56dd9db87193eb418f03e37225e02d7, type: 3}
+  - temName: Saipat
+    Id: 69
+    Type: 0a00000005000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: f505e4b6c5259364d8f600220ddd6a29, type: 3}
+  - temName: Crystle
+    Id: 72
+    Type: 00000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 4f7987a0a83f28341bfb36ac16721bda, type: 3}
+  - temName: Hocus
+    Id: 79
+    Type: 06000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 80
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 9e51e2cbd9b40d140b4a9ebb9d9dd7b4, type: 3}
+  - temName: Unknown
+    Id: 80
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 79
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 9ffd391702ffa8845a427df4461a4a60, type: 3}
+  - temName: Sparzy
+    Id: 82
+    Type: 03000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 4
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 5c753da8d797a7744b7f03aeff7c156b, type: 3}
+  - temName: Magmis
+    Id: 86
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 87
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 2f9ff8ace8243254bafe244c3539c533, type: 3}
+  - temName: Mastione
+    Id: 87
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 86
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: bb303e7e2783741469ea51d846a5c960, type: 3}
+  - temName: Umishi
+    Id: 88
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 89
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: f01c260e0f9960249886219d10a9fe01, type: 3}
+  - temName: Ukama
+    Id: 89
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 88
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 64335f67f23d3c9478a235212f8ceceb, type: 3}
+  - temName: Unknown
+    Id: 90
+    Type: 03000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 91
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 2d1f86ff4ff207745b57b0ea328fa8cc, type: 3}
+  - temName: Raignet
+    Id: 91
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 4
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 90
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: f354b074c1f42b243b6d27fb0bb553b7, type: 3}
+  - temName: Smazee
+    Id: 92
+    Type: 05000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 9d2654e6bcbda834fb84a0105359c10c, type: 3}
+  - temName: Zizare
+    Id: 95
+    Type: 02000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 6
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 572016ba0e3cf904480f17e0976c889e, type: 3}
+  - temName: Unknown
+    Id: 102
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 103
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: cd72b3a745771b14081c49f3dc5fd9aa, type: 3}
+  - temName: Unknown
+    Id: 103
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 102
+    EvoToId: 104
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 384e879aec12d0e479833bfb5ded9cb7, type: 3}
+  - temName: Cerneaf
+    Id: 104
+    Type: 07000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 3
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 103
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: ea4fc32451fe86d44ac34a4b43c71c9e, type: 3}
+  - temName: Ganki
+    Id: 113
+    Type: 030000000b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 114
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: b0a29f674a8112e46ac5dc9441aa1e35, type: 3}
+  - temName: Unknown
+    Id: 114
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 113
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: a5cd5eb1cf55859419e48ca65c1fb9c3, type: 3}
+  - temName: Oceara
+    Id: 115
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: ca5e52a0535146a439a3d3a25f3bad9b, type: 3}
+  - temName: Nessla
+    Id: 123
+    Type: 0a00000003000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 65d73affd8898f340b896c285f1931e9, type: 3}
+  - temName: Valiar
+    Id: 124
+    Type: 06000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 2
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 6a5636585365f2b4a8904411d8e25053, type: 3}
+  - temName: Kalazu
+    Id: 127
+    Type: 0a000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 128
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 2fc2e93083e35f4478bf0c7353a8bd90, type: 3}
+  - temName: Kalabyss
+    Id: 128
+    Type: 0a00000009000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 127
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: b0794da1a5297d94c9cfb0aa1f91452a, type: 3}
+  - temName: Tuwai
+    Id: 130
+    Type: 0b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 1
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 8da0f2a3fe4be9c4781d7bc463062a2c, type: 3}
+  - temName: Pigepic
+    Id: 141
+    Type: 0b000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: afe7f6de6222ebc4cabec349005c2236, type: 3}
+  - temName: Unknown
+    Id: 200
+    Type: 08000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 050e4da611cf7674fa85804537951f46, type: 3}
+  - temName: Unknown
+    Id: 201
+    Type: 0a00000009000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 3cb984cc15da6ca43a2eb2f24969b706, type: 3}
+  - temName: Unknown
+    Id: 202
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 0a3c309591071dc46836f48ae3ee0212, type: 3}
+  - temName: Unknown
+    Id: 203
+    Type: 02000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 204
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: d5779d62cd9ebea4d9938e3ab993b944, type: 3}
+  - temName: Unknown
+    Id: 204
+    Type: 02000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 203
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 801b2183bf7229b40a3360774f13c7a8, type: 3}
+  - temName: Unknown
+    Id: 207
+    Type: 09000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 34184030acf40014c89de80540a21bb7, type: 3}
+  - temName: Unknown
+    Id: 208
+    Type: 05000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 068d11c0bfbf46b47b9bb39efc0478f8, type: 3}
+  - temName: Unknown
+    Id: 209
+    Type: 01000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: d708931b9072f6f4492bd4f6c2da9245, type: 3}
+  - temName: Unknown
+    Id: 210
+    Type: 04000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 211
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 82e1a3e4987a08a47b8b94fe830eeb4b, type: 3}
+  - temName: Unknown
+    Id: 211
+    Type: 04000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 210
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 3cfd2a0ce106a1a4bb00f5326184f469, type: 3}
+  - temName: Unknown
+    Id: 212
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: fc2e7141c5db9a24999a4482acf8a816, type: 3}
+  - temName: Unknown
+    Id: 51
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: 52
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: 354cb88a3b776e6408545c8ea0774ba2, type: 3}
+  - temName: Unknown
+    Id: 52
+    Type: 
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: 51
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: a2bbc4b3f7745494d917cb71b89c87b1, type: 3}
+  - temName: Unknown
+    Id: 213
+    Type: 09000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: fabd02b80f540544fbfa68d16f7a2898, type: 3}
+  - temName: Unknown
+    Id: 214
+    Type: 00000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: c7ac42c5a830e124fa3fcc46f9923e5e, type: 3}
+  - temName: Unknown
+    Id: 215
+    Type: 01000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: fb2e32c7a4d6c5344bc05cf9dbe7f42c, type: 3}
+  - temName: Unknown
+    Id: 216
+    Type: 05000000
+    Weight: 0
+    Height: 0
+    MaxCp: 0
+    CpMultiFromEvo: 0
+    BaseHp: 0
+    BaseAttack: 0
+    BaseAttackEsp: 0
+    BaseDefense: 0
+    BaseDefenseEsp: 0
+    BaseSpeed: 0
+    BaseStamina: 0
+    Rarity: 0
+    CaptureRate: 0
+    FleeRate: 0
+    OriginIsland: 0
+    Class: 0
+    LvlToEvolve: 0
+    EggDistanceType: 0
+    PrimaryMovesIds: 
+    SecondaryMovesIds: 
+    EvoFromId: -1
+    EvoToId: -1
+    Resistance: 
+    Weaknesses: 
+    Image: {fileID: 21300000, guid: ccd6feca3fb61684c9b12100c7199419, type: 3}
+  PrimaryMoves:
+  - Name: Mechanical Heat
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: Shy Shield
+    id: 0
+    Type: 8
+    attackType: 3
+    attack: 0
+    staminaUsed: 4
+    hold: 0
+    priority: 3
+    synergy: 0
+  - Name: Tenderness
+    id: 0
+    Type: 8
+    attackType: 3
+    attack: 0
+    staminaUsed: 3
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Urushiol
+    id: 0
+    Type: 9
+    attackType: 1
+    attack: 41
+    staminaUsed: 8
+    hold: 0
+    priority: 2
+    synergy: 10
+  - Name: WindBlade
+    id: 0
+    Type: 11
+    attackType: 2
+    attack: 40
+    staminaUsed: 9
+    hold: 0
+    priority: 2
+    synergy: 10
+  - Name: Scratch
+    id: 0
+    Type: 8
+    attackType: 1
+    attack: 20
+    staminaUsed: 4
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Nibble
+    id: 0
+    Type: 8
+    attackType: 1
+    attack: 37
+    staminaUsed: 7
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Heavy Blow
+    id: 0
+    Type: 8
+    attackType: 1
+    attack: 58
+    staminaUsed: 11
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Sand Splatter
+    id: 0
+    Type: 2
+    attackType: 1
+    attack: 35
+    staminaUsed: 7
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Rage
+    id: 0
+    Type: 5
+    attackType: 3
+    attack: 0
+    staminaUsed: 10
+    hold: 1
+    priority: 2
+    synergy: 0
+  - Name: Fierce Claw
+    id: 0
+    Type: 8
+    attackType: 1
+    attack: 71
+    staminaUsed: 13
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Peck
+    id: 0
+    Type: 8
+    attackType: 1
+    attack: 24
+    staminaUsed: 5
+    hold: 0
+    priority: 4
+    synergy: 0
+  - Name: Stare
+    id: 0
+    Type: 6
+    attackType: 3
+    attack: 0
+    staminaUsed: 4
+    hold: 0
+    priority: 2
+    synergy: 0
+  - Name: Hypnosis
+    id: 0
+    Type: 0
+    attackType: 3
+    attack: 0
+    staminaUsed: 10
+    hold: 1
+    priority: 2
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  - Name: 0
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+  SecondaryMoves:
+  - Name: Aerial Ace
+    id: 0
+    Type: 7
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.6
+  - Name: Air Cutter
+    id: 0
+    Type: 7
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.25
+    DidgeWindow: 0.9
+  - Name: Ancient Power
+    id: 0
+    Type: 15
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.35
+  - Name: Aqua Jet
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Aqua Tail
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 0.2
+  - Name: Blizzard
+    id: 0
+    Type: 11
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0
+  - Name: Body Slam
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 0.2
+  - Name: Bone Club
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  - Name: Brick Break
+    id: 0
+    Type: 5
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.25
+    DidgeWindow: 0.4
+  - Name: Brine
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.35
+  - Name: Bubble Beam
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.2
+  - Name: Bug Buzz
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1.5
+  - Name: Bulldoze
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 1.1
+  - Name: Cross Chop
+    id: 0
+    Type: 5
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.25
+    DidgeWindow: 0.3
+  - Name: Cross Poison
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.25
+    DidgeWindow: 0.3
+  - Name: Dark Pulse
+    id: 0
+    Type: 1
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1.1
+  - Name: Dazzling Gleam
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.8
+  - Name: Dig
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Disarming Voice
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 1.8
+  - Name: Discharge
+    id: 0
+    Type: 3
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.7
+  - Name: Dragon Claw
+    id: 0
+    Type: 2
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.25
+    DidgeWindow: 0.2
+  - Name: Dragon Pulse
+    id: 0
+    Type: 2
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1.2
+  - Name: Draining Kiss
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.1
+  - Name: Drill Peck
+    id: 0
+    Type: 7
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.9
+  - Name: Drill Run
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.25
+    DidgeWindow: 0.7
+  - Name: Earthquake
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 1.95
+  - Name: Fire Blast
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Fire Punch
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.51
+  - Name: Flame Burst
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Flame Charge
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.2
+  - Name: Flame Wheel
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Flamethrower
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 0.9
+  - Name: Flash Cannon
+    id: 0
+    Type: 16
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1.1
+  - Name: Giga Drain
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1.15
+  - Name: Gunk Shot
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Heart Stamp
+    id: 0
+    Type: 14
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Heat Wave
+    id: 0
+    Type: 6
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Horn Attack
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Hurricane
+    id: 0
+    Type: 7
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 1.77
+  - Name: Hydro Pump
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 2.1
+  - Name: Hyper Beam
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.8
+  - Name: Hyper Fang
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Ice Beam
+    id: 0
+    Type: 11
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1.35
+  - Name: Ice Punch
+    id: 0
+    Type: 11
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1.1
+  - Name: Icy Wind
+    id: 0
+    Type: 11
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.7
+  - Name: Iron Head
+    id: 0
+    Type: 16
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  - Name: Leaf Blade
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.25
+    DidgeWindow: 1
+  - Name: Low Sweep
+    id: 0
+    Type: 5
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.15
+  - Name: Magnet Bomb
+    id: 0
+    Type: 16
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.55
+  - Name: Mega Drain
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 1.2
+  - Name: Megahorn
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Moonblast
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.6
+  - Name: Mud Bomb
+    id: 0
+    Type: 10
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.45
+  - Name: Night Slash
+    id: 0
+    Type: 1
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.25
+    DidgeWindow: 0.2
+  - Name: Ominous Wind
+    id: 0
+    Type: 8
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  - Name: Parabolic Charge
+    id: 0
+    Type: 3
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.4
+  - Name: Petal Blizzard
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1
+  - Name: Play Rough
+    id: 0
+    Type: 4
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1.3
+  - Name: Poison Fang
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.2
+  - Name: Power Gem
+    id: 0
+    Type: 15
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.8
+  - Name: Power Whip
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0
+    DidgeWindow: 1.3
+  - Name: Psybeam
+    id: 0
+    Type: 14
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 1.3
+  - Name: Psychic
+    id: 0
+    Type: 14
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 1.2
+  - Name: Psyshock
+    id: 0
+    Type: 14
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Psystrike
+    id: 0
+    Type: 14
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.9
+  - Name: Rest
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0
+    DidgeWindow: 1.296
+  - Name: Rock Slide
+    id: 0
+    Type: 15
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1.4
+  - Name: Rock Tomb
+    id: 0
+    Type: 15
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.25
+    DidgeWindow: 0.9
+  - Name: Scald
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 2.1
+  - Name: Seed Bomb
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Shadow Ball
+    id: 0
+    Type: 8
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Shadow Punch
+    id: 0
+    Type: 8
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.3
+  - Name: Shadow Sneak
+    id: 0
+    Type: 8
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.6
+  - Name: Signal Beam
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 1
+  - Name: Sludge
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Sludge Bomb
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Sludge Wave
+    id: 0
+    Type: 13
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 0.9
+  - Name: Solar Beam
+    id: 0
+    Type: 9
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 1.7
+  - Name: Stomp
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.7
+  - Name: Stone Edge
+    id: 0
+    Type: 15
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.5
+    DidgeWindow: 0.4
+  - Name: Struggle
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0
+    DidgeWindow: 0.7
+  - Name: Submission
+    id: 0
+    Type: 5
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.15
+  - Name: Swift
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 0.5
+  - Name: Thunder
+    id: 0
+    Type: 3
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 1
+    CritChance: 0.05
+    DidgeWindow: 1.55
+  - Name: Thunder Punch
+    id: 0
+    Type: 3
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  - Name: Thunderbolt
+    id: 0
+    Type: 3
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 2
+    CritChance: 0.05
+    DidgeWindow: 0.8
+  - Name: Twister
+    id: 0
+    Type: 2
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 1.75
+  - Name: Vice Grip
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  - Name: Water Pulse
+    id: 0
+    Type: 17
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 4
+    CritChance: 0.05
+    DidgeWindow: 1
+  - Name: Wrap
+    id: 0
+    Type: 12
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 5
+    CritChance: 0.05
+    DidgeWindow: 0.6
+  - Name: X-Scissor
+    id: 0
+    Type: 0
+    attackType: 0
+    attack: 0
+    staminaUsed: 0
+    hold: 0
+    priority: 0
+    synergy: 0
+    ChargeCount: 3
+    CritChance: 0.05
+    DidgeWindow: 0.25
+  PokeTypeColors:
+  - {r: 0.6901961, g: 0.7490196, b: 0.61960787, a: 1}
+  - {r: 0.7137255, g: 0.6509804, b: 0.5882353, a: 1}
+  - {r: 0.5137255, g: 0.454902, b: 0.6313726, a: 1}
+  - {r: 0.86274517, g: 0.81568635, b: 0.6509804, a: 1}
+  - {r: 0.9607844, g: 0.81568635, b: 0.8705883, a: 1}
+  - {r: 0.5882353, g: 0.25882354, b: 0.3254902, a: 1}
+  - {r: 0.9176471, g: 0.61960787, b: 0.5529412, a: 1}
+  - {r: 0.72156864, g: 0.654902, b: 0.9215687, a: 1}
+  - {r: 0.7137255, g: 0.7137255, b: 0.8470589, a: 1}
+  - {r: 0.6156863, g: 0.8000001, b: 0.5529412, a: 1}
+  - {r: 0.5372549, g: 0.47058827, b: 0.4039216, a: 1}
+  - {r: 0.7411765, g: 0.9176471, b: 0.9176471, a: 1}
+  - {r: 0.7411765, g: 0.7058824, b: 0.6862745, a: 1}
+  - {r: 0.6509804, g: 0.5372549, b: 0.6666667, a: 1}
+  - {r: 0.86666673, g: 0.60784316, b: 0.60784316, a: 1}
+  - {r: 0.67058825, g: 0.6392157, b: 0.5764706, a: 1}
+  - {r: 0.47450984, g: 0.47450984, b: 0.6745098, a: 1}
+  - {r: 0.6745098, g: 0.7490196, b: 0.94117653, a: 1}
+  TypeChart:
+    TypeParameters:
+    - BaseType: 0
+      StrenghtsTypes: 02000000090000000e000000
+      WeaknessesTypes: 05000000070000000d00000008000000100000000600000004000000
+    - BaseType: 1
+      StrenghtsTypes: 080000000e000000
+      WeaknessesTypes: 010000000400000005000000
+    - BaseType: 2
+      StrenghtsTypes: 02000000
+      WeaknessesTypes: 0400000010000000
+    - BaseType: 3
+      StrenghtsTypes: 0700000011000000
+      WeaknessesTypes: 0200000003000000090000000a000000
+    - BaseType: 4
+      StrenghtsTypes: 010000000200000005000000
+      WeaknessesTypes: 060000000d00000010000000
+    - BaseType: 5
+      StrenghtsTypes: 010000000b0000000c0000000f00000010000000
+      WeaknessesTypes: 000000000400000007000000080000000d0000000e000000
+    - BaseType: 6
+      StrenghtsTypes: 00000000090000000b00000010000000
+      WeaknessesTypes: 02000000060000000f00000011000000
+    - BaseType: 7
+      StrenghtsTypes: 000000000500000009000000
+      WeaknessesTypes: 030000000f00000010000000
+    - BaseType: 8
+      StrenghtsTypes: 080000000e000000
+      WeaknessesTypes: 020000000c000000
+    - BaseType: 9
+      StrenghtsTypes: 0a0000000f00000011000000
+      WeaknessesTypes: 00000000020000000600000007000000090000000d00000010000000
+    - BaseType: 10
+      StrenghtsTypes: 03000000060000000d0000000f00000010000000
+      WeaknessesTypes: 000000000700000009000000
+    - BaseType: 11
+      StrenghtsTypes: 0200000007000000090000000a000000
+      WeaknessesTypes: 060000000b0000001000000011000000
+    - BaseType: 12
+      StrenghtsTypes: 
+      WeaknessesTypes: 080000000f00000010000000
+    - BaseType: 13
+      StrenghtsTypes: 0400000009000000
+      WeaknessesTypes: 080000000a0000000d0000000f00000010000000
+    - BaseType: 14
+      StrenghtsTypes: 050000000d000000
+      WeaknessesTypes: 010000000e00000010000000
+    - BaseType: 15
+      StrenghtsTypes: 0000000006000000070000000b000000
+      WeaknessesTypes: 050000000a00000010000000
+    - BaseType: 16
+      StrenghtsTypes: 040000000b0000000f000000
+      WeaknessesTypes: 03000000060000001000000011000000
+    - BaseType: 17
+      StrenghtsTypes: 060000000a0000000f000000
+      WeaknessesTypes: 020000000900000011000000
+  PokeTypeSprites:
+  - {fileID: 21300000, guid: 25de9755b630b5c47918a4d7cc39c4ac, type: 3}
+  - {fileID: 21300000, guid: 380950173c0de1b4099c3c4db7c98e56, type: 3}
+  - {fileID: 21300000, guid: f401d1982656fea4297af68936090b9a, type: 3}
+  - {fileID: 21300000, guid: 96ae7ab3e46a6be4e82f48d1bf43eea9, type: 3}
+  - {fileID: 21300000, guid: 2b706bb2c00973447a4588c4a2b8ee35, type: 3}
+  - {fileID: 21300000, guid: 78611b8274392de408339298d575c271, type: 3}
+  - {fileID: 21300000, guid: c4832ee70952cd44d90ebdbf9a65fe37, type: 3}
+  - {fileID: 21300000, guid: c1164d8197a90ce42abf1899cc3acd99, type: 3}
+  - {fileID: 21300000, guid: d18d3a509fb3d36499044e698547325d, type: 3}
+  - {fileID: 21300000, guid: 601cf09f57afd4048927c55abf0b4ada, type: 3}
+  - {fileID: 21300000, guid: 551f0a3f2831f9249a309f953785dbf7, type: 3}
+  - {fileID: 21300000, guid: 397b01dbd619d06488cc85b0c98cb5e9, type: 3}
